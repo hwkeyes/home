@@ -3,7 +3,7 @@ document.querySelectorAll('[data-whatsapp-form]').forEach((form)=>{
  form.addEventListener('submit',(event)=>{
   event.preventDefault();
   const data=new FormData(form);
-  const message=['Hello Hawk Eyes, I would like to request a consultation.','Name: '+data.get('name'),'Telephone: '+data.get('phone'),'Postcode: '+data.get('postcode'),'Service: '+data.get('service'),'Support route: '+data.get('supportType'),'Preferred time: '+(data.get('time')||'Flexible'),'Details: '+(data.get('details')||'I will explain when contacted.')].join('\n');
+  const message=['Hello Hawk Eyes Cyber Tech, I would like to request a consultation.','Name: '+data.get('name'),'Telephone: '+data.get('phone'),'Postcode: '+data.get('postcode'),'Service: '+data.get('service'),'Support route: '+data.get('supportType'),'Preferred time: '+(data.get('time')||'Flexible'),'Details: '+(data.get('details')||'I will explain when contacted.')].join('\n');
   const url='https://wa.me/447375669959?text='+encodeURIComponent(message);
   window.open(url,'_blank','noopener,noreferrer');
   let fallback=form.querySelector('.enquiry-fallback');

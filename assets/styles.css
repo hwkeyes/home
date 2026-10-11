@@ -368,3 +368,6 @@ section[id] { scroll-margin-top:24px; }
 .service-hours strong { color:var(--white); }
 .contact-hours .service-hours { width:100%; margin:24px 0; font-size:17px; }
 .contact-hours>p { color:#a7b6c5; }
+
+/* Hawk Eyes Cyber Tech brand extension */
+.brand-copy .cyber-brand,.footer-brand .cyber-brand{display:block;color:var(--cyan,#00d4ef);font-size:.72rem;letter-spacing:.1em;margin-top:4px;}
