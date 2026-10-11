@@ -1,0 +1,15 @@
+; Cloudflare import file for hwkeyes.com and www.hwkeyes.com - GitHub Pages.
+; GitHub Pages website: https://hwkeyes.github.io/home/
+; Preserve existing email and verification records.
+$ORIGIN hwkeyes.com.
+$TTL 3600
+hwkeyes.com. 3600 IN A 185.199.108.153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN A 185.199.109.153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN A 185.199.110.153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN A 185.199.111.153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN AAAA 2606:50c0:8000::153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN AAAA 2606:50c0:8001::153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN AAAA 2606:50c0:8002::153 ; cf_tags=cf-proxied:false
+hwkeyes.com. 3600 IN AAAA 2606:50c0:8003::153 ; cf_tags=cf-proxied:false
+www.hwkeyes.com. 3600 IN CNAME hwkeyes.github.io. ; cf_tags=cf-proxied:false
+
