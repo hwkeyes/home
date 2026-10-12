@@ -4122,12 +4122,12 @@
         "comptia"
       ],
       "follow_up_questions": [],
-      "short_answer": "Hawk Eyes Cyber Tech highlights qualified engineers. Ask the team to confirm the individual qualifications relevant to the service you need.",
+      "short_answer": "Yes. Qualifications held across our team include CompTIA A+, CompTIA Security+, Cisco CCNA and CCNP, Microsoft MCP and MCSE, and Level 7 cybersecurity qualifications. MCP and MCSE are legacy credentials. Ask the team about qualifications relevant to your proposed work.",
       "safe_checks": [
-        "Describe the service you need.",
-        "Request specific qualification details if important to your decision."
+        "Tell us the type of support you need so we can identify suitable expertise.",
+        "Ask the team for qualification details relevant to the work."
       ],
-      "interpretation": "Exact certificates and current individual credentials are not independently verified by this adviser.",
+      "interpretation": "These are qualifications held across the team; this does not state that every engineer holds every listed qualification.",
       "stop_and_escalate": "Do not invent certificate levels or claim vendor-authorised partner status.",
       "service_id": "repairs",
       "priority": "normal",
