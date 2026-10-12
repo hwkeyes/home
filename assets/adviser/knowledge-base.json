@@ -5331,5 +5331,212 @@
       "id": "other-os",
       "label": "Other / specialist OS"
     }
+  ],
+  "guides": [
+    {
+      "id": "biometrics",
+      "title": "Device locks and biometrics",
+      "description": "A device lock uses a PIN, passcode, fingerprint or face check to restrict access. It helps protect your information when someone else picks up your device.",
+      "url": "online-security-guide.html#biometrics",
+      "keywords": [
+        "biometric",
+        "fingerprint",
+        "face id",
+        "device lock",
+        "screen lock",
+        "passcode"
+      ]
+    },
+    {
+      "id": "passkeys",
+      "title": "Set up passkeys",
+      "description": "Passkeys let you sign in to supported accounts using your device unlock or a security key. They resist fake sign-in pages without requiring you to type a password.",
+      "url": "online-security-guide.html#passkeys",
+      "keywords": [
+        "passkey",
+        "pass key"
+      ]
+    },
+    {
+      "id": "two-step",
+      "title": "Turn on two-step verification",
+      "description": "Two-step verification adds another check to password-based sign-in. It makes a stolen password less useful, but you must still protect codes and recovery methods.",
+      "url": "online-security-guide.html#two-step",
+      "keywords": [
+        "2fa",
+        "two factor",
+        "two step",
+        "mfa",
+        "authenticator"
+      ]
+    },
+    {
+      "id": "password-manager",
+      "title": "Passwords and your password manager",
+      "description": "A password manager keeps your logins in a protected vault and helps create unique passwords. Securing the vault reduces the risk of one reused password exposing several accounts.",
+      "url": "online-security-guide.html#password-manager",
+      "keywords": [
+        "password manager",
+        "bitwarden",
+        "password vault",
+        "unique password",
+        "strong password"
+      ]
+    },
+    {
+      "id": "android",
+      "title": "Android phone security",
+      "description": "Android security combines updates, a screen lock, permissions and account protection. These checks help limit unwanted access and prepare you for losing or replacing your phone.",
+      "url": "online-security-guide.html#android",
+      "keywords": [
+        "android",
+        "samsung",
+        "google phone"
+      ]
+    },
+    {
+      "id": "iphone",
+      "title": "iPhone and iPad security",
+      "description": "iPhone and iPad protections help secure the device, Apple Account and personal information. Reviewing locks, sharing and recovery settings helps you stay in control.",
+      "url": "online-security-guide.html#iphone",
+      "keywords": [
+        "iphone",
+        "ipad",
+        "apple account"
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Secure your social media and messaging",
+      "description": "Account security protects who can sign in; privacy settings control who can see or contact you. Reviewing both helps reduce impersonation, unwanted access and oversharing.",
+      "url": "online-security-guide.html#social-media",
+      "keywords": [
+        "social media",
+        "instagram",
+        "facebook",
+        "whatsapp",
+        "tiktok",
+        "linkedin",
+        "snapchat",
+        "youtube"
+      ]
+    },
+    {
+      "id": "email",
+      "title": "Protect your email",
+      "description": "Your inbox often receives password-reset messages for other accounts. Protecting sign-in, recovery settings and mail rules helps prevent an intruder spreading access.",
+      "url": "online-security-guide.html#email",
+      "keywords": [
+        "email",
+        "inbox",
+        "gmail",
+        "outlook"
+      ]
+    },
+    {
+      "id": "banking",
+      "title": "Banking and payment safety",
+      "description": "Banking safety combines secure devices, payment checks and independent verification. It helps you spot scams before approving a payment or disclosing information.",
+      "url": "online-security-guide.html#banking",
+      "keywords": [
+        "banking",
+        "bank account",
+        "payment"
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies and browser cleanup",
+      "description": "Cookies remember sessions and preferences, while cache and history serve different purposes. Understanding these categories helps you clean up without deleting information you still need.",
+      "url": "online-security-guide.html#cookies",
+      "keywords": [
+        "cookie",
+        "cache",
+        "browser cleanup",
+        "private browsing",
+        "incognito"
+      ]
+    },
+    {
+      "id": "mac",
+      "title": "Mac security and care",
+      "description": "Mac care combines supported updates, controlled access, encryption and recoverable backups. Each protects a different part of your device or data.",
+      "url": "online-security-guide.html#mac",
+      "keywords": [
+        "mac security",
+        "filevault",
+        "secure my mac"
+      ]
+    },
+    {
+      "id": "links",
+      "title": "Check links and website addresses",
+      "description": "Checking the genuine destination helps you recognise misleading addresses. HTTPS alone cannot tell you whether a website owner is honest.",
+      "url": "online-security-guide.html#links",
+      "keywords": [
+        "safe link",
+        "website address",
+        "check a link",
+        "check links",
+        "fake website"
+      ]
+    },
+    {
+      "id": "scams",
+      "title": "Phishing and scams",
+      "description": "Phishing uses impersonation to trick you into sharing information or approving actions. Pausing and checking independently helps you avoid reacting to a convincing fake.",
+      "url": "online-security-guide.html#scams",
+      "keywords": [
+        "phishing",
+        "scam"
+      ]
+    },
+    {
+      "id": "hacked-account",
+      "title": "If an account is hacked",
+      "description": "Account recovery restores access through the genuine provider. Reviewing sessions, settings and exposed credentials helps close routes an intruder may have left behind.",
+      "url": "online-security-guide.html#hacked-account",
+      "keywords": [
+        "hacked account",
+        "account hacked",
+        "recover hacked"
+      ]
+    },
+    {
+      "id": "backups",
+      "title": "Backups and recovery",
+      "description": "A backup keeps a recoverable copy separate from your working files. Checking restoration helps you prepare for device failure, deletion or other data loss.",
+      "url": "online-security-guide.html#backups",
+      "keywords": [
+        "backup",
+        "back up",
+        "restore files"
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "Recovery details and safety codes",
+      "description": "Recovery contacts and emergency codes help when your normal sign-in method fails. Keeping a usable, protected fallback reduces the risk of permanent lockout.",
+      "url": "online-security-guide.html#recovery",
+      "keywords": [
+        "recovery code",
+        "backup code",
+        "account recovery",
+        "locked out"
+      ]
+    },
+    {
+      "id": "digital-footprint",
+      "title": "Your Digital Footprint: Stay Safe Online",
+      "description": "Understand the online trail you leave and make safer choices about sharing, privacy, accounts and scams.",
+      "url": "digital-footprint.html",
+      "keywords": [
+        "digital footprint",
+        "online trail",
+        "online reputation",
+        "oversharing",
+        "privacy settings"
+      ]
+    }
   ]
 }

@@ -1,0 +1,3 @@
+
+ document.querySelectorAll('.quiz-options button').forEach(button=>{button.addEventListener('click',()=>{const result=button.closest('.quiz-wrap').querySelector('.quiz-result');button.parentElement.querySelectorAll('button').forEach(b=>b.classList.remove('correct','wrong'));if(button.dataset.answer==='correct'){button.classList.add('correct');result.textContent='Correct. Use a trusted, independent route to contact your bank.'}else{button.classList.add('wrong');result.textContent='Not quite. Do not click or reply. Contact the bank through its official app or number.'}})});
+ 
